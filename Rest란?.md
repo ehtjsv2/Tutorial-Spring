@@ -8,7 +8,7 @@
 > * REST는 ```웹의 기존기술```과 ```HTTP 프로토콜```을 그대로 활용하기 때문에 웹의 장점을 최대한 활용 가능한 아키텍처 스타일이다.
 
 ## 구체적 개념
-> * ```HTTP URI(Uniform Resource Identifier)```를 통해 ````자원(Resource)```을 명시하고, ```HTTP Method(POST, GET, PUT, DELETE)```를 통해 해당 자원에 대한 ```CRUD Operation```을 적용하는 것을 의미한다.
+> * ```HTTP URI(Uniform Resource Identifier)```를 통해 ```자원(Resource)```을 명시하고, ```HTTP Method(POST, GET, PUT, DELETE)```를 통해 해당 자원에 대한 ```CRUD Operation```을 적용하는 것을 의미한다.
 > * HTTP 요청 MEthod
 >   * 주어진 리소스에 수행하길 원하는 행동을 의미, ```HTTP 동사```라고도 불림
 > * CRUD Operation
