@@ -9,12 +9,12 @@
 
 ## 구체적 개념
 > * ```HTTP URI(Uniform Resource Identifier)```를 통해 ```자원(Resource)```을 명시하고, ```HTTP Method(POST, GET, PUT, DELETE)```를 통해 해당 자원에 대한 ```CRUD Operation```을 적용하는 것을 의미한다.
-> * HTTP 요청 MEthod
+> * ```HTTP 요청 Method```
 >   * 주어진 리소스에 수행하길 원하는 행동을 의미, ```HTTP 동사```라고도 불림
-> * CRUD Operation
->   * Create: 생성(POST)
->   * Read : 조회(GET)
->   * Update : 수정(PUT)
->   * Delete : 삭제(DELETE)
->   * HEAD : header정보 조회(HEAD)
+> * ```CRUD Operation```
+>   * Create: 생성(```POST```)
+>   * Read : 조회(```GET```)
+>   * Update : 수정(```PUT```)
+>   * Delete : 삭제(```DELETE```)
+>   * HEAD : header정보 조회(```HEAD```)
 
