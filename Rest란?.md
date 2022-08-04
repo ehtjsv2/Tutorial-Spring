@@ -18,3 +18,15 @@
 >   * Delete : 삭제(```DELETE```)
 >   * HEAD : header정보 조회(```HEAD```)
 
+## REST 특징
+> * ```Server-Client 구조```(server-자원보유, client-자원요청)
+>   * REST Sever: API제공, 비즈니스 로직처리 및 저장
+>   * Client: 사용자 인증, context(세션, 로그인정보) 등을 직접 관리
+> * ```Stateless(무상태)```
+>   * HTTP 프로토콜이 Stateless Protocol이므로.
+>   * Client의 context를 Server에 저장하지않는다.-> 구현 단순해짐
+>   * Server는 각각의 요청을 완전히 별개의 것으로 인식하고 처리
+>     * 각 API 서버는 Client의 요청만을 단순처리.
+>     * 즉, 이전 요청이 다음 요청의 처리에 연관되어서는 안됨.
+>     * SErver의 처리방식에 일관성을 부여, 부담 줄어듬, 서비스 자유도 높아짐
+>   * Cacheable(캐시 처리 가능)
